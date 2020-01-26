@@ -24,7 +24,7 @@ No CocoaPods anymore thankfully.
 ### Xcode 11 Install
 
 1. File->Swift Packages->Add Package Dependency...
-2. In the 'Chose Package Repository' popup window; copy/paste repository full address into search field.
+2. In the 'Chose Package Repository' popup window; copy/paste https://github.com/trevor-sonic/Font-Awesome-Swift.git repository full address into search field.
 3. Tap 'Next'
 
 ## Usage
