@@ -13,8 +13,8 @@ Font Awesome swift library for iOS. No image icons any more. Using Font Awesome 
 
 ## Requirements
 
-- iOS 8.0+
-- Xcode 8
+- iOS 10.0+
+- Xcode 11
 
 ## Installation
 
