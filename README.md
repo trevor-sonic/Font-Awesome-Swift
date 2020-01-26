@@ -26,6 +26,7 @@ No CocoaPods anymore thankfully.
 1. File->Swift Packages->Add Package Dependency...
 2. In the 'Chose Package Repository' popup window; copy/paste https://github.com/trevor-sonic/Font-Awesome-Swift.git repository full address into search field.
 3. Tap 'Next'
+4. Copy the 'FontAwesome.ttf' from 'FontToCopyInYourApp' into your app's buldle folder (as same level as AppDelegate.swift)
 
 ## Usage
 
