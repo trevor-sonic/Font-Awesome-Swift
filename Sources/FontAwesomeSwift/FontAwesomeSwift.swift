@@ -1,3 +1,3 @@
-struct Font_Awesome_Swift {
+public struct FontAwesomeSwift {
     var text = "Hello, World!"
 }
