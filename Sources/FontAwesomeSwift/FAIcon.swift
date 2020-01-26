@@ -409,11 +409,11 @@ private class FontLoader {
             var fontURL: URL!
             let identifier = bundle.bundleIdentifier
 
-            if identifier?.hasPrefix("org.cocoapods") == true {
-                fontURL = bundle.url(forResource: FAStruct.FontName, withExtension: "ttf", subdirectory: "Font-Awesome-Swift.bundle")
-            } else {
+//            if identifier?.hasPrefix("org.cocoapods") == true {
+//                fontURL = bundle.url(forResource: FAStruct.FontName, withExtension: "ttf", subdirectory: "FontAwesomeSwift.bundle")
+//            } else {
                 fontURL = bundle.url(forResource: FAStruct.FontName, withExtension: "ttf")
-            }
+//            }
             let data = try! Data(contentsOf: fontURL as URL)
             let provider = CGDataProvider(data: data as CFData)
             let font = CGFont(provider!)
