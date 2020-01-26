@@ -1,9 +1,5 @@
-# Font Awesome Swift
-![Font Awesome Swift](https://github.com/Vaberer/Font-Awesome-Swift/blob/master/resources/opensource_matters.png)
-
-Follow me: [@vaberer](https://twitter.com/vaberer)
-
-I like &#9733;. Do not forget to &#9733; this super convenient library.
+# Font Awesome Swift 5 with Swift Package Manager
+This library forked from https://github.com/Vaberer/Font-Awesome-Swift , updated to Swift 5 and converted to SPM.
 
 ## Added ```UISegmentedControl``` & ```UITabbarItem``` & ```UISlider``` & ```UIStepper``` & ```UITextField``` support!
 
@@ -23,42 +19,13 @@ Font Awesome swift library for iOS. No image icons any more. Using Font Awesome 
 ## Installation
 
 ### CocoaPods
+No CocoaPods anymore thankfully.
 
-[CocoaPods](http://cocoapods.org) is a dependency manager for Cocoa projects.
+### Xcode 11 Install
 
-CocoaPods 0.36 adds supports for Swift and embedded frameworks. You can install it with the following command:
-
-```bash
-$ gem install cocoapods
-```
-
-To integrate Font Awesome Swift into your Xcode project using CocoaPods, specify it in your `Podfile`:
-
-```ruby
-source 'https://github.com/CocoaPods/Specs.git'
-platform :ios, '8.0'
-use_frameworks!
-
-pod 'Font-Awesome-Swift', '~> 1.7.2'
-```
-
-Then, run the following command:
-
-```bash
-$ pod install
-```
-Do not forget to import to your swift files where you want to use this library:
-```swift
-import Font_Awesome_Swift
-```
-
-Check branches `swift-2.2`, `swift-2.3` or `swift-3`
-
-### Manually
-
-1. Copy `FAIcon.swift` and `FontAwesome.ttf` files into your project
-2. Check to import `FontAwesome.ttf` in project, "Project" > "Target" > "Copy Bundle Resources"
-
+1. File->Swift Packages->Add Package Dependency...
+2. In the 'Chose Package Repository' popup window; copy/paste repository full address into search field.
+3. Tap 'Next'
 
 ## Usage
 
@@ -208,8 +175,12 @@ For Stacked images, please refer [Stacked Icons](http://fontawesome.io/examples/
   
 ```
 
+## Author 
 
-## Author
+- [@dejaWorks](https://twitter.com/dejaworks)
+- [Blog](http://lab.dejaworks.com)
+
+## Original Author 
 
 Patrik Vaberer, patrik@toptal.com
 
